@@ -1,0 +1,12 @@
+name: MiniHazineAvı
+main: com.onurbey.minigame.MiniHazineAvıPlugin
+version: 1.0
+api-version: "1.20"
+commands:
+  startgame:
+    description: Hazine avını başlatır.
+    usage: /<command>
+permissions:
+  minigame.start:
+    description: Oyunu başlatma izni
+    default: op
